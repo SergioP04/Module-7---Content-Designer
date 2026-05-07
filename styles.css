@@ -210,3 +210,19 @@ body {
         gap: 10px;
     }
 }
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+    transition: 0.3;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.feature-card,
+.mockup {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
