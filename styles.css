@@ -120,11 +120,11 @@ body {
 .features h3 {
     margin-top: 15px;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .features p {
-    text-align: left;
+    text-align: center;
     line-height: 1.5;
 }
 
@@ -300,4 +300,53 @@ button:hover {
 .feature-card,
 .mockup {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+    transition: 0.3s;   
+}
+
+.feature-card,
+.menu-item,
+.mockup {
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card:hover,
+.menu-item:hover,
+.mockup:hover {
+    transform: translateY(-5px);
+}
+
+.about-box {
+    margin-top: 50px;
+    background: #d8cfc4;
+    border-radius: 15px;
+    padding: 35px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.about-box:hover {
+    transform: translateY(-5px);
+}
+
+.about-text {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #2b1f1a;
+}
+
+.about-text p {
+    line-height: 1.8;
+    color: #3a2b24;
 }
