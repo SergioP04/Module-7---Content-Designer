@@ -82,11 +82,16 @@ body {
 }
 
 .primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;  
     background: #7b4b3a;
     color: white;
 }
 
 .secondary {
+    padding: 10px 20px;
+    border-radius: 5px;
     background: #d8cfc4;
     color: #2b1f1a;
 }
